@@ -1,0 +1,11 @@
+prefix=/home/lah/projects/llm4cybersecurity/mlsec
+exec_prefix=/home/lah/projects/llm4cybersecurity/mlsec
+libdir=/home/lah/projects/llm4cybersecurity/mlsec/lib
+includedir=/home/lah/projects/llm4cybersecurity/mlsec/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid
